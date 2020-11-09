@@ -1,0 +1,17 @@
+I created a Maze class
+The constructor Maze()
+I get the maze from a text file "maze.txt" then store it in two 2D arrays.
+I created a stack 'path'
+
+The main logic is that we will keep trying moves until we win
+
+If we get stucked we undo the last move and try the next valid move.. and so on.
+
+If we are stucked and keep undoing until we are back to the start position then there is no way to solve this maze.
+
+The maze is represented in "maze.txt" file as 
+' ' = valid way
+'*' = a Wall
+'.' = current position / current path
+'$' = the target point
+
