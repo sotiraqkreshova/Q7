@@ -122,7 +122,7 @@ int main()
             else {
                 // No way to solve this Maze
                 cout << "No Solution!\n";
-                return;
+                return 0;
             }
         }
         else {
